@@ -365,6 +365,7 @@ nav {
     padding-top: 25px;
     font-family: 'Tillana', 'Rockwell', 'Calisto MT';
     color: #785B51;
+    font-size: 42px;
 }
 
 /* Desolation and Gray Canyon, Utah */
@@ -386,6 +387,7 @@ nav {
 
 #desolation-h1 {
     text-align: center;
+    font-size: 42px;
 }
 
 #desolation-p {
@@ -409,4 +411,5 @@ nav {
 
 #grand-h1 {
     margin-left: 80px;
+    font-size: 42px;
 }
