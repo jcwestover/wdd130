@@ -293,3 +293,120 @@ nav {
         margin-top: 25px;
     }
 }
+
+.river-title {
+    color: wheat;
+    font-family: 'Tillana', 'Rockwell', 'Calisto MT';
+    font-size: 2em;
+    margin-top: 10px;
+    text-shadow: 5px 5px black;
+    margin: 50px;
+    letter-spacing: .25em;
+    font-size: 6em;
+}
+
+/* Page 2 General */
+
+.p-elements {
+    margin: 80px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    color: #785B51;
+}
+
+.img-elements {
+    border: solid 5px #C4775E;
+    box-shadow: 4px 4px 5px 1px #785B51;
+}
+
+.div-elements {
+    background-color: wheat;
+    border: solid 7px #785B51;
+    box-shadow: 2px 2px 5px 1px #473631;
+}
+
+.h1-elements {
+    padding-top: 25px;
+    font-family: 'Tillana', 'Rockwell', 'Calisto MT';
+    color: #785B51;
+}
+
+/* Main Fork of the Salmon River, Idaho */
+
+#salmon-river-p {
+    margin: 80px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    color: #785B51;
+}
+
+#salmon-river {
+    margin-right: 80px;
+    float: right;
+    width: 350px;
+    margin-top: 100px;
+    border: solid 5px #C4775E;
+    box-shadow: 4px 4px 5px 1px #785B51;
+}
+
+#salmon-river-div {
+    background-color: wheat;
+    margin-left: 80px;
+    margin-right: 240px;
+    margin-top: 160px;
+    border: solid 7px #785B51;
+    box-shadow: 2px 2px 5px 1px #473631;
+}
+
+#salmon-river-h1 {
+    margin-left: 40px;
+    padding-top: 25px;
+    font-family: 'Tillana', 'Rockwell', 'Calisto MT';
+    color: #785B51;
+}
+
+/* Desolation and Gray Canyon, Utah */
+
+#desolation {
+    margin-left: 80px;
+    margin-top: 80px;
+    height: 280px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 7px;
+}
+
+#desolation-div {
+    margin-left: 240px;
+    margin-right: 80px;
+    margin-top: 160px;
+}
+
+#desolation-h1 {
+    text-align: center;
+}
+
+#desolation-p {
+    margin-left: 80px;
+}
+
+/* Grand Canyon */
+
+#grand {
+    margin-top: 80px;
+    height: 290px;
+    float: right;
+    margin-right: 80px;
+}
+
+#grand-div {
+    margin-top: 280px;
+    margin-right: 240px;
+    margin-left: 80px;
+}
+
+#grand-h1 {
+    margin-left: 80px;
+}
