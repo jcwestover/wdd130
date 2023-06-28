@@ -1,0 +1,56 @@
+img {
+    height: 470px;
+    width: 400px;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, blue, green);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 750px;
+}
+
+.inbl {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-div {
+    align-content: center;
+    background-color: white;
+    height: 470px;
+    width: 940px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0;
+}
+
+h2 {
+    padding-top: 70px;
+    padding-bottom: 17px;
+}
+
+h6 {
+    padding-bottom: 40px;
+    padding-top: 17px;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+.underline {
+    height: 2px;
+    background-color: black;
+    width: 420px;
+    align: left;
+}
