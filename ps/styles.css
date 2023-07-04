@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&family=Exo:wght@300&display=swap');
+
+html {
+    margin: auto;
+}
+
+body {
+    margin: auto;
+    background-color: black;
+    height: 100%;
+}
+
+header {
+    background: linear-gradient(#3B4C79 30%, black);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 103;
+}
+
+.logo:hover {
+    box-shadow: 0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #FAD578,
+        0 0 80px #FAD578,
+        0 0 90px #FAD578,
+        0 0 100px #FAD578,
+        0 0 150px #FAD578;
+}
+
+nav a {
+    color: #FAD578;
+    text-decoration: none;
+    padding: 45px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+}
+
+nav {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #FAD578,
+        0 0 80px #FAD578,
+        0 0 90px #FAD578,
+        0 0 100px #FAD578,
+        0 0 150px #FAD578;
+}
+
+.img-gradient .banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.img-gradient {
+    position: absolute;
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner_text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    position: absolute;
+    z-index: 101;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.banner_img {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    width: 100%;
+}
+
+h1 {
+    color: #FAD578;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 70px;
+    text-shadow: 5px 5px black;
+    animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #FAD578,
+            0 0 80px #FAD578,
+            0 0 90px #FAD578,
+            0 0 100px #FAD578,
+            0 0 150px #FAD578;
+
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+.title_div {
+    background-color: #FAD578;
+    border: 2px solid #F2EEE4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 25px;
+    margin-bottom: -70px;
+    z-index: 10;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px #fff,
+        0 0 5px #fff,
+        0 0 9px #fff,
+        0 0 20px #FAD578,
+        0 0 40px #FAD578,
+        0 0 45px #FAD578,
+        0 0 50px #FAD578,
+        0 0 75px #FAD578;
+}
+
+.title_div h3 {
+    color: #3B4C79;
+}
+
+
+/* ADD ALL IDs OF P DIVs */
+#about_me,
+#before_you_start {
+    z-index: 1;
+    position: relative;
+}
+
+#about_me {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 380px;
+}
+
+.p_div {
+    background-color: #3B4C79;
+    margin: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+    z-index: 1;
+    border: 2px solid #FAD578;
+    border-radius: 15px;
+    box-shadow: 0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 10px #FAD578,
+        0 0 20px #FAD578,
+        0 0 22px #FAD578,
+        0 0 25px #FAD578,
+        0 0 37px #FAD578;
+    ;
+
+}
+
+.p_div p {
+    color: #F2EEE4;
+    font-family: 'Exo', sans-serif;
+    padding: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 1.15em;
+}
+
+.img-gradient::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, black 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+}
+
+#before_you_start {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 350px;
+}
+
+footer {
+    background: linear-gradient(to top, #FAD578 75%, black);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    font-family: 'Exo 2', sans-serif;
+    color: #3B4C79;
+    margin-top: 150px;
+}
+
+.copyright {
+    margin-left: -150px;
+    margin-bottom: -5px;
+}
+
+.site_plan {
+    margin-left: -100px;
+    margin-bottom: -5px;
+    padding: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.site_plan:hover {
+    background-color: #F2EEE4;
+}
+
+.insta {
+    height: 50px;
+    margin-bottom: -5px;
+    margin-right: -200px;
+}
