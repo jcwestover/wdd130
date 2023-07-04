@@ -87,7 +87,7 @@ nav a:hover {
     position: absolute;
     z-index: 101;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 65px;
 }
 
 .banner_img {
@@ -103,6 +103,7 @@ h1 {
     font-size: 70px;
     text-shadow: 5px 5px black;
     animation: flicker 1.5s infinite alternate;
+    letter-spacing: .2em;
 }
 
 @keyframes flicker {
