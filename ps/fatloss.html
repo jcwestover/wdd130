@@ -5,37 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fat Loss</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div>
-        <header>
-            <a href="index.html" id="main_logo">
-                <img src="images/Spire Fitness-1.png" alt="logo" width="120px">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="fatloss.html">Fat Loss</a>
-                <a href="muscle_building.html">Muscle Building</a>
-            </nav>
-        </header>
-        <div id="banner">
-            <img src="images/Fatloss1.png" alt="A man doing a side plank">
+    <header>
+        <a href="index.html" id="main_logo">
+            <img class="logo" src="images/Spire Fitness-1.png" alt="logo" width="120px">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fatloss.html">Fat Loss</a>
+            <a href="muscle_building.html">Muscle Building</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="img-gradient">
+            <img class="banner_img" src="images/Fatloss1.png" alt="A man doing a side plank">
         </div>
-        <section id="Banner_text">
-            <h1>FAT LOSS</h1>
-        </section>
     </div>
+    <section class="banner_text">
+        <h1>FAT LOSS</h1>
+    </section>
     <main class="main_fatloss">
         <section id="getting_started_section">
-            <div class="'title_div">
+            <div id="getting_started" class="title_div">
                 <h3>Getting Started</h3>
             </div>
-            <div>
+            <div class="p_div" id="getting_started_p">
                 <p>In order to lose fat we must be in an energy deficit (more calories being burned than calories coming
                     in). So lets start by using the macro calculator to figure out our caloric and macro starting point
                 </p>
-                <div id="calculator">*macro calculator here*</div>
+                <div class="calculator">*macro calculator here*</div>
                 <p>Now that we have our starting point lets talk about tracking. Every day you will need to meet the
                     macro goals given to you by the calculator (there is a small margin of error that is allowed so
                     don’t worry if you aren’t perfect to the gram just get as close as you can). Now we need to chose a
@@ -48,10 +49,10 @@
             </div>
         </section>
         <section id="adjusting">
-            <div class="title_div">
+            <div id="adjusting_div" class="title_div">
                 <h3>Adjusting</h3>
             </div>
-            <div>
+            <div class="p_div" id="adjusting_p">
                 <p>Each week our goal is .5 - 2 lbs of body weight lost. If for 2 weeks in a row you do not lose weight,
                     or you gain weight we will start by taking 75 grams of carbs away from your macro count. If you
                     don’t lose weight or you gain weight for 2 weeks in a row again we will repeat what we did above.
@@ -72,11 +73,14 @@
                 </p>
             </div>
         </section>
+        <div class="img-gradient" id="mid_page_img">
+            <img class="banner_img" src="images/fatloss_mid.jpg" alt="a woman doing an ab exercise">
+        </div>
         <section id="how_long">
-            <div class="title_div">
+            <div id="how_long_div" class="title_div">
                 <h3>How Long Do I Diet For?</h3>
             </div>
-            <div>
+            <div class="p_div" id="how_long_p">
                 <p>It is important to note that dieting is a stressor for the body both mentally and physically, because
                     of that it is counter productive to stay in a fat loss phase for too long. For each fat loss phase I
                     recommend dieting to lose only 10 percent of your bodyweight max before shifting into a maintenance
@@ -88,11 +92,12 @@
             </div>
         </section>
         <section id="maintenance">
-            <div class="title_div">
+            <div id="maintenance_div" class="title_div">
                 <h3>Maintenance</h3>
             </div>
-            <div>
-                <p>When you are ready to start a maintenance phase you will simply increase your daily caloric intake up
+            <div class="p_div" id="maintenance_p">
+                <p>When you are ready to start a maintenance phase you will simply
+                    increase your daily caloric intake up
                     400 calories (either from carbs, whatever you last cut, or a mix of both), these will be your macros
                     for the start of maintenance. You will also knock off 20 minutes of cardio for the week (doesn’t
                     matter which days). Continue weighing during this time, but don’t change your macros or cardio until

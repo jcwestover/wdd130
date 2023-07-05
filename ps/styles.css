@@ -164,7 +164,11 @@ h1 {
 
 /* ADD ALL IDs OF P DIVs */
 #about_me,
-#before_you_start {
+#before_you_start,
+#getting_started_p,
+#adjusting_p,
+#how_long_p,
+#maintenance_p {
     z-index: 1;
     position: relative;
 }
@@ -260,4 +264,59 @@ footer {
     height: 50px;
     margin-bottom: -5px;
     margin-right: -200px;
+}
+
+/* fatloss page */
+#getting_started {
+    margin-top: 380px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    position: relative;
+}
+
+.calculator {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    background-color: #FAD578;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #3B4C79;
+}
+
+#adjusting_div {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 200px;
+    position: relative;
+}
+
+#how_long_div {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 350px;
+    position: relative;
+}
+
+#maintenance_div {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 200px;
+    position: relative;
 }
