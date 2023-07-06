@@ -225,8 +225,8 @@ h1 {
     display: block;
     position: relative;
     background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
-    margin-top: -300px;
-    height: 300px;
+    margin-top: -350px;
+    height: 350px;
     width: 100%;
     content: '';
 }
@@ -335,8 +335,8 @@ footer {
     display: block;
     position: relative;
     background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
-    margin-top: -227px;
-    height: 223px;
+    margin-top: -271px;
+    height: 270px;
     width: 100%;
     content: '';
 }
