@@ -335,7 +335,7 @@ footer {
     display: block;
     position: relative;
     background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
-    margin-top: -271px;
+    margin-top: -274px;
     height: 270px;
     width: 100%;
     content: '';
