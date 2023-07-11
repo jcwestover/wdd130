@@ -5,33 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muscle Building</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div>
-        <header>
-            <a href="index.html" id="main_logo">
-                <img src="images/Spire Fitness-1.png" alt="logo" width="120px">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="fatloss.html">Fat Loss</a>
-                <a href="muscle_building.html">Muscle Building</a>
-            </nav>
-        </header>
-        <div id="banner">
-            <img src="images/Muscle1.png" alt="Man doing front squats">
+    <header>
+        <a href="index.html" id="main_logo">
+            <img class="logo" src="images/Spire Fitness-1.png" alt="logo" width="120px">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fatloss.html">Fat Loss</a>
+            <a href="muscle_building.html">Muscle Building</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="img-gradient" id="head_muscle_gradient">
+            <img class="banner_img" src="images/Muscle1.png" alt="Man doing front squats">
         </div>
-        <section id="Banner_text">
-            <h1>MUSCLE BUILDING</h1>
-        </section>
+    </div>
+    <section id="Banner_text">
+        <h1>MUSCLE BUILDING</h1>
+    </section>
     </div>
     <main class="main_msucle">
-        <section id="muscle_section">
-            <div class="title_div">
+        <section id="start_muscle_section">
+            <div id="start_muscle" class="title_div">
                 <h3>Getting Started</h3>
             </div>
-            <div>
+            <div class="p_div" id="start_muscle_p">
                 <p>In order to build muscle we must be in a caloric surplus (eat more calories than we use throughout
                     the day). If you are coming off a fat loss phase keep the calories and macros you have currently. If
                     you are starting from scratch use the macro calculator to get an estimate of where to start.
@@ -49,11 +51,11 @@
                 </p>
             </div>
         </section>
-        <section id="adjusting">
-            <div class="title_div">
+        <section id="adjusting_muscle">
+            <div id="adjusting_muscle_div" class="title_div">
                 <h3>Adjusting</h3>
             </div>
-            <div>
+            <div class="p_div" id="adjusting_muscle_p">
                 <p>Our goal each week is to gain .3 - .6 pounds of weight. If we don’t gain weight for 2 weeks in a row
                     or if we lose weight we will start by adding 300 calories to our diet (you can add this as whatever
                     forms of macros you want). After this we will alternate from adding calories and removing 20 minutes
@@ -62,40 +64,54 @@
                 </p>
             </div>
         </section>
+        <div class="img-gradient-midpage" id="mid_muscle_img">
+            <img class="banner_img" src="images/muscle_3.jpeg" alt="a woman leaning on a barbell">
+        </div>
         <section id="weight_training">
-            <div class="title_div">
+            <div id="weight_training_div" class="title_div">
                 <h3>Weight Training</h3>
             </div>
-            <div>
-                <p>Our goal each week is to gain .3 - .6 pounds of weight. If we don’t gain weight for 2 weeks in a row
-                    or if we lose weight we will start by adding 300 calories to our diet (you can add this as whatever
-                    forms of macros you want). After this we will alternate from adding calories and removing 20 minutes
-                    of low intensity cardio twice a week (don’t go below 20 minutes of low intensity cardio 4x a week).
+            <div class="p_div" id="weight_training_p">
+                <p>Our goal each week is to gain .3 - .6 pounds of weight. If we don’t gain weight for 2 weeks in a
+                    row
+                    or if we lose weight we will start by adding 300 calories to our diet (you can add this as
+                    whatever
+                    forms of macros you want). After this we will alternate from adding calories and removing 20
+                    minutes
+                    of low intensity cardio twice a week (don’t go below 20 minutes of low intensity cardio 4x a
+                    week).
 
                 </p>
-                <div class="calculator">*insert weight training plan here*</div>
+                <div id="weight_calc" class="calculator">*insert weight training plan here*</div>
             </div>
         </section>
         <section id="when_stop">
-            <div class="title_div">
+            <div id="when_stop_div" class="title_div">
                 <h3>When Do I Stop?</h3>
             </div>
-            <div>
-                <p>Since a muscle building phase is not a stressor to the body the same way a fat loss phase is, you can
-                    theoretically stay in this phase for as long as you’d like. As a general loose rule I advise only
+            <div class="p_div" id="when_stop_p">
+                <p>Since a muscle building phase is not a stressor to the body the same way a fat loss phase is, you
+                    can
+                    theoretically stay in this phase for as long as you’d like. As a general loose rule I advise
+                    only
                     staying in a muscle building phase for about 6 months or till you get to about 15%
 
                 </p>
             </div>
         </section>
-        <section id="maintenance">
-            <div class="title_div">
+        <div class="img-gradient-midpage" id="last_muscle_img">
+            <img class="banner_img" src="images/muscle_2.png" alt="a woman front squatting">
+        </div>
+        <section id="maintenance_muscle">
+            <div id="maintenance_muscle_div" class="title_div">
                 <h3>Maintenance</h3>
             </div>
-            <div>
+            <div class="p_div" id="maintenance_muscle_p">
                 <p>At the end of your bulking phase you will keep your calories and cardio the same for at least 4-6
-                    weeks before moving onto a fat loss phase. However, if you are happy with the way you look you can
-                    maintain for as long as you want, just make sure you are adjusting calories if you start losing or
+                    weeks before moving onto a fat loss phase. However, if you are happy with the way you look you
+                    can
+                    maintain for as long as you want, just make sure you are adjusting calories if you start losing
+                    or
                     gaining weight week to week.
 
                 </p>

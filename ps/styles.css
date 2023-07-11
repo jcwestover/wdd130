@@ -168,7 +168,12 @@ h1 {
 #getting_started_p,
 #adjusting_p,
 #how_long_p,
-#maintenance_p {
+#maintenance_p,
+#start_muscle_p,
+#adjusting_muscle_p,
+#weight_training_p,
+#when_stop_p,
+#maintenance_muscle_p {
     z-index: 1;
     position: relative;
 }
@@ -278,6 +283,7 @@ footer {
 }
 
 /* fatloss page */
+
 #getting_started {
     margin-top: 380px;
     padding-left: 12px;
@@ -337,6 +343,106 @@ footer {
     background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
     margin-top: -274px;
     height: 270px;
+    width: 100%;
+    content: '';
+}
+
+#head_fatloss_img::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
+    margin-top: -350px;
+    height: 350px;
+    width: 100%;
+    content: '';
+}
+
+
+/* muscle building */
+#head_muscle_gradient::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
+    margin-top: -275px;
+    height: 275px;
+    width: 100%;
+    content: '';
+}
+
+#start_muscle {
+    margin-top: 210px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    position: relative;
+}
+
+#adjusting_muscle_div {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 200px;
+    position: relative;
+}
+
+#weight_training_div {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#when_stop_div {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 200px;
+    position: relative;
+}
+
+#maintenance_muscle_div {
+    width: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#weight_calc {
+    margin-bottom: 75px;
+}
+
+#mid_muscle_img::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
+    margin-top: -340px;
+    height: 340px;
+    width: 100%;
+    content: '';
+}
+
+#last_muscle_img::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
+    margin-top: -338px;
+    height: 338px;
     width: 100%;
     content: '';
 }
