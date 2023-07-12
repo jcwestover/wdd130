@@ -363,7 +363,7 @@ footer {
     display: block;
     position: relative;
     background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
-    margin-top: -275px;
+    margin-top: -278px;
     height: 275px;
     width: 100%;
     content: '';
@@ -431,7 +431,7 @@ footer {
     display: block;
     position: relative;
     background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
-    margin-top: -340px;
+    margin-top: -342px;
     height: 340px;
     width: 100%;
     content: '';
@@ -441,7 +441,7 @@ footer {
     display: block;
     position: relative;
     background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
-    margin-top: -338px;
+    margin-top: -342px;
     height: 338px;
     width: 100%;
     content: '';
