@@ -362,7 +362,7 @@ footer {
 #head_muscle_gradient::after {
     display: block;
     position: relative;
-    background-image: linear-gradient(to bottom, black, black 3%, rgba(255, 0, 0, 0), black 97%, black);
+    background-image: linear-gradient(to bottom, black, black 1%, rgba(255, 0, 0, 0), black 99%, black);
     margin-top: -278px;
     height: 275px;
     width: 100%;
@@ -370,7 +370,7 @@ footer {
 }
 
 #start_muscle {
-    margin-top: 210px;
+    margin-top: 380px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
